@@ -65,15 +65,13 @@ src/
 ````
 
 
-🌟 Diferenciais
+## 🌟 Diferenciais
 - Estilização com Styled Components
 - UI responsiva e acessível
 - Tema global com cores e fontes personalizadas
 
-🧑 Autor
-Desenvolvido por Luiz
-LinkedIn | GitHub
-
+## 🧑 Autor
+Desenvolvido por Luiz Eduardo
 ---
 
 
