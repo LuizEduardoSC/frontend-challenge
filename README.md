@@ -28,7 +28,6 @@ A aplicação consome a API pública [JSONPlaceholder](https://jsonplaceholder.t
 - Estilização moderna com **Styled Components**
 - Tema global com cores, fontes e espaçamentos
 - Responsividade e melhorias de UI/UX
-- Testes unitários básicos (UserCard, SearchBar)
 
 ---
 
