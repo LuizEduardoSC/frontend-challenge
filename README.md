@@ -53,6 +53,7 @@ A aplicação consome a API pública [JSONPlaceholder](https://jsonplaceholder.t
 
 
 ## 📁 Estrutura de Pastas
+````
 src/
  ├── components/        # Componentes reutilizáveis
  ├── pages/             # Páginas principais
@@ -61,7 +62,7 @@ src/
  ├── types/             # Tipos TypeScript
  ├── App.tsx
  └── main.tsx
-
+````
 
 
 🌟 Diferenciais
@@ -74,9 +75,6 @@ Desenvolvido por Luiz
 LinkedIn | GitHub
 
 ---
-
-
-
 
 
 
