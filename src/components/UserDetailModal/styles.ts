@@ -16,17 +16,42 @@ export const Modal = styled.div`
     width: 90%;
     max-width: 400px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* Tablet */
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    max-width: 90%;
+    padding: 16px;
+    }
+
+  /* Mobile */
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        max-width: 95%;
+        padding: 12px;
+        border-radius: 6px;
+    }
 `;
 
 export const Title = styled.h2`
     margin-bottom: 12px;
     font-size: 1.4rem;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        font-size: 1.2rem;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 1.1rem;
+    }
 `;
 
 export const Info = styled.p`
     margin: 6px 0;
     font-size: 0.95rem;
     color: #444;
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 0.85rem;
+    }
 `;
 
 export const CloseButton = styled.button`
@@ -40,6 +65,12 @@ export const CloseButton = styled.button`
     transition: background 0.2s ease;
 
     &:hover {
-    background: ${({ theme }) => theme.colors.secondary};
+        background: ${({ theme }) => theme.colors.secondary};
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        width: 100%;
+        padding: 10px;
+        font-size: 0.9rem;
     }
 `;

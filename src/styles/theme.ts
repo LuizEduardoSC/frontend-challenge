@@ -23,4 +23,11 @@ export const theme: DefaultTheme = {
     medium: "10px",
     large: "16px",
     },
+
+    breakpoints: {
+    mobile: "480px",
+    tablet: "768px",
+    desktop: "1024px",
+    }
 };
+

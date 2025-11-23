@@ -14,15 +14,38 @@ export const Card = styled.div`
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     }
+
+  /* Tablet */
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    padding: ${({ theme }) => theme.spacing.small};
+    }
+
+  /* Mobile */
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    padding: ${({ theme }) => theme.spacing.small};
+    margin-bottom: ${({ theme }) => theme.spacing.small};
+    }
 `;
 
 export const Name = styled.h3`
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: ${({ theme }) => theme.spacing.small};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        font-size: 1.1rem;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 1rem;
+    }
 `;
 
 export const Email = styled.p`
     font-size: 0.95rem;
     color: ${({ theme }) => theme.colors.secondary};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 0.85rem;
+    }
 `;
