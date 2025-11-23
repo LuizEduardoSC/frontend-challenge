@@ -17,13 +17,13 @@ export const Modal = styled.div`
     max-width: 400px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 
-  /* Tablet */
+
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     max-width: 90%;
     padding: 16px;
     }
 
-  /* Mobile */
+
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         max-width: 95%;
         padding: 12px;

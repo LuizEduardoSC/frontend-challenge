@@ -5,13 +5,11 @@ export const Container = styled.div`
     margin: 0 auto;
     padding: ${({ theme }) => theme.spacing.medium};
 
-  /* Tablet */
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     max-width: 90%;
     padding: ${({ theme }) => theme.spacing.small};
     }
 
-  /* Mobile */
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     max-width: 100%;
     padding: ${({ theme }) => theme.spacing.small};

@@ -14,13 +14,11 @@ export const Input = styled.input`
         box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
     }
 
-  /* Tablet */
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
         font-size: 0.95rem;
         padding: ${({ theme }) => theme.spacing.small};
     }
 
-    /* Mobile */
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         font-size: 0.9rem;
         padding: 6px;

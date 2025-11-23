@@ -6,13 +6,11 @@ export const ListContainer = styled.div`
     gap: ${({ theme }) => theme.spacing.small};
     margin-top: ${({ theme }) => theme.spacing.medium};
 
-  /* Tablet */
     @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
-        flex-direction: column; /* mantém 1 coluna */
+        flex-direction: column;
     }
 
-  /* Desktop */
     @media (min-width: ${({ theme }) => theme.breakpoints.desktop}) {
-        flex-direction: column; /* mantém 1 coluna */
+        flex-direction: column;
     }
 `;

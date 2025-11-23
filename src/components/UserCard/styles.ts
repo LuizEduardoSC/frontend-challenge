@@ -15,12 +15,10 @@ export const Card = styled.div`
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     }
 
-  /* Tablet */
     @media (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
     padding: ${({ theme }) => theme.spacing.small};
     }
 
-  /* Mobile */
     @media (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     padding: ${({ theme }) => theme.spacing.small};
     margin-bottom: ${({ theme }) => theme.spacing.small};
